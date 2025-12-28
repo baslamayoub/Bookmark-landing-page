@@ -17,7 +17,13 @@
   margin: 0 auto;
   /* background-color: aqua; */
 }
-
+@font-face {
+  font-family: "rubik";
+  src: url(../fonts/Rubik-Italic-VariableFont_wght.ttf);
+}
+body {
+  font-family: rubik, "sans-serif";
+}
 header {
   /* background-color: blueviolet; */
   padding: 10px 0;
@@ -34,4 +40,7 @@ header nav ul {
 }
 header nav ul a {
   color: var(--text-color);
+}
+header nav ul a:nth-last-of-type {
+  background-color: var(--primary-red-400);
 }
