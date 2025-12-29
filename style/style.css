@@ -10,8 +10,7 @@
   --text-color: hsl(229, 31%, 21%);
   --primary-blue-600: hsl(231, 69%, 60%);
   --primary-red-400: hsl(0, 94%, 66%);
-  --paragraph-color : hsl(229, 8%, 60%);
-
+  --paragraph-color: hsl(229, 8%, 60%);
 }
 .container {
   max-width: 1200;
@@ -25,7 +24,7 @@
 }
 body {
   font-family: rubik, "sans-serif";
-  background-color: var(--grey-50);
+  /* background-color: var(--grey-50); */
 }
 header {
   height: 100px;
@@ -43,12 +42,11 @@ header nav ul {
 }
 header nav ul a {
   color: var(--text-color);
-  transition: all .5s ease;
+  transition: all 0.5s ease;
   text-transform: uppercase;
 }
-header nav ul a:hover{
-    color: var(--primary-red-400);
-
+header nav ul a:hover {
+  color: var(--primary-red-400);
 }
 header nav ul li:last-child a {
   background-color: var(--primary-red-400);
@@ -57,39 +55,49 @@ header nav ul li:last-child a {
   font-weight: 500;
   border-radius: 5px;
   border: 2px solid var(--primary-red-400);
-  
-  
-
 }
-header nav ul li:last-child a:hover{
-    background-color: var(--grey-50);
-    color: var(--primary-red-400);
+header nav ul li:last-child a:hover {
+  background-color: var(--grey-50);
+  color: var(--primary-red-400);
 }
-
 
 /* header end */
 /* body  start */
-.hero{
+.hero {
   height: calc(100vh - 100px);
 }
-.hero .container{
+.hero .container {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.hero_content h1{
-font-size: 45px;
-font-weight: 500;
+.hero_actions {
+  margin-top: 30px;
 }
-.hero_content p{
+.hero_content h1 {
+  font-size: 45px;
+  font-weight: 500;
+}
+.hero_content p {
   color: var(--paragraph-color);
-  
+  line-height: 1.6;
 }
-.get_chrome{
-  background-color: var(--primary-blue-600);
-  color: var(--grey-50);
+.btn {
   padding: 10px 15px;
   border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.get_chrome {
+  background-color: var(--primary-blue-600);
+  color: var(--grey-50);
   border: 2px solid var(--primary-blue-600);
+  margin-right: 20px;
+}
+
+.get_firefox {
+  background-color: var(--grey-50);
+  color: var(--paragraph-color);
+  box-shadow: 0 8px 8px -4px rgba(83, 104, 223, 0.2);
 }
