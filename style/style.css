@@ -23,6 +23,7 @@
 }
 body {
   font-family: rubik, "sans-serif";
+  background-color: var(--grey-50);
 }
 header {
   /* background-color: blueviolet; */
@@ -61,4 +62,20 @@ header nav ul li:last-child a {
 header nav ul li:last-child a:hover{
     background-color: var(--grey-50);
     color: var(--primary-red-400);
+}
+
+
+/* header end */
+/* body  start */
+.hero{
+  height: 100vh;
+  ù
+}
+.hero .container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero_content {
 }
