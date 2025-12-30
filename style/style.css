@@ -79,11 +79,13 @@ header nav ul li:last-child a:hover {
 .hero_content h1 {
   font-size: 45px;
   font-weight: 500;
+  color: var(--text-color);
 }
 .hero_content p {
   color: var(--paragraph-color);
   line-height: 1.6;
   font-size: 18px;
+  padding: 20px 0;
 }
 .btn {
   padding: 10px 15px;
@@ -116,10 +118,10 @@ header nav ul li:last-child a:hover {
   border: 2px solid var(--text-color);
 }
 
-.hero  {
+.hero {
   position: relative;
 }
-.hero .hero_image img{
+.hero .hero_image img {
   margin-right: -150px;
 }
 .hero .hero_image::after {
@@ -134,4 +136,35 @@ header nav ul li:last-child a:hover {
   border-bottom-left-radius: 100px;
   border-top-left-radius: 100px;
   z-index: -1;
+}
+
+/* end hero */
+/* start features */
+
+.features {
+  width: 100%;
+}
+.features .features_header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.features .features_header p {
+  max-width: 500px;
+  color: var(--paragraph-color);
+}
+.features .features_header h1 {
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+.features .features_tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+  height: 100px;
+
 }
