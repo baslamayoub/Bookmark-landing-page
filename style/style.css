@@ -128,10 +128,10 @@ header nav ul li:last-child a:hover {
   content: "";
   position: absolute;
   display: block;
-  bottom: 0px;
+  bottom: 30px;
   right: 0;
   width: 500px;
-  height: 300px;
+  height: 200px;
   background-color: var(--primary-blue-600);
   border-bottom-left-radius: 100px;
   border-top-left-radius: 100px;
@@ -143,7 +143,8 @@ header nav ul li:last-child a:hover {
 
 .features {
   width: 100%;
-  padding: 100px 0;
+  height: 100vh;
+  padding: 50px 0;
 }
 .features .features_header {
   display: flex;
@@ -166,8 +167,9 @@ header nav ul li:last-child a:hover {
   align-items: center;
   margin: 0 auto;
   width: 80%;
-  height: 80px;
+  height: 60px;
   margin-bottom: 50px;
+  margin-top: 50px;
   border-bottom: 2px solid var(--grey-50);
 }
 .features .features_tabs li {
@@ -177,6 +179,7 @@ header nav ul li:last-child a:hover {
 }
 .features .features_tabs li .button {
   background: none;
+  display: block;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -196,7 +199,7 @@ header nav ul li:last-child a:hover {
   width: 100%;
   height: 3px;
   background-color: var(--primary-red-400);
-  bottom: 0;
+  bottom: 0px;
   left: 0;
 }
 .features .features_tabs li .button-active {
@@ -213,7 +216,7 @@ header nav ul li:last-child a:hover {
 }
 .active {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 50px;
 }
@@ -224,7 +227,7 @@ header nav ul li:last-child a:hover {
   width: 100%;
 }
 .feature .feature__content {
-  width: 50%;
+  width: 40%;
 }
 
 .feature .feature__content h3 {
@@ -250,10 +253,10 @@ header nav ul li:last-child a:hover {
   content: "";
   position: absolute;
   display: block;
-  bottom: -100%;
+  bottom: -700px;
   left: 0%;
   width: 500px;
-  height: 300px;
+  height: 200px;
   background-color: var(--primary-blue-600);
   border-bottom-right-radius: 100px;
   border-top-right-radius: 100px;
@@ -262,4 +265,6 @@ header nav ul li:last-child a:hover {
 
 .feature:target {
   display: flex;
+  justify-content: space-between;
 }
+
