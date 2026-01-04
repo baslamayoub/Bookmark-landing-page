@@ -449,14 +449,15 @@ footer .top-footer input{
   width: 300px;
   border-radius: 5px;
 
+  outline: none;
 }
 
 footer .top-footer button {
   margin-top: 30px;
   background-color: var(--primary-red-400);
   color: var(--grey-50);
-  padding: 15px 30px;
-  font-weight: 500;
+  padding: 10px 30px;
+  font-weight: bold;
   border-radius: 5px;
   border: 2px solid var(--primary-blue-600);
   transition: all ease 0.5s;
@@ -464,4 +465,14 @@ footer .top-footer button {
 footer .top-footer button:hover {
   background-color: var(--grey-50);
   color: var(--primary-blue-600);
+}
+
+footer .bottom-footer{
+  width: 100%;
+  
+  background-color: var(--text-color);
+}
+footer .bottom-footer .container{
+  display: flex;
+  justify-content: space-between;
 }
