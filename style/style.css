@@ -214,7 +214,7 @@ header nav ul li:last-child a:hover {
   top: 0;
   display: none;
 }
-#tab1{
+#tab1 {
   display: flex;
   align-items: center;
   gap: 80px;
@@ -435,20 +435,19 @@ footer .top-footer {
   flex-direction: column;
   align-items: center;
   padding: 30px;
-
 }
-footer .top-footer h1{
+footer .top-footer h1 {
   color: var(--grey-50);
-width: 400px;
-text-align: center;
-padding: 20px;
+  width: 400px;
+  text-align: center;
+  padding: 20px;
 }
-footer .top-footer h4{
+footer .top-footer h4 {
   color: var(--grey-50);
   text-transform: uppercase;
   letter-spacing: 10px;
 }
-footer .top-footer input{
+footer .top-footer input {
   border: none;
   padding: 10px 15px;
   width: 300px;
@@ -472,19 +471,17 @@ footer .top-footer button:hover {
   color: var(--primary-blue-600);
 }
 
-footer .bottom-footer{
+footer .bottom-footer {
   width: 100%;
   padding: 30px;
   background-color: var(--text-color);
 }
-footer .bottom-footer .container{
+footer .bottom-footer .container {
   display: flex;
   justify-content: space-between;
 }
 
-
-
-footer .bottom-footer .container .logo{
+footer .bottom-footer .container .logo {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -493,40 +490,36 @@ footer .bottom-footer .container .logo{
 footer .bottom-footer .container .logo img {
   width: 30px;
 }
-footer .bottom-footer .container .logo p{
+footer .bottom-footer .container .logo p {
   color: var(--grey-50);
   text-transform: uppercase;
   font-size: 18px;
   font-weight: bold;
 }
-footer .bottom-footer .container .bottom-footer-right{
+footer .bottom-footer .container .bottom-footer-right {
   display: flex;
   align-items: center;
 }
 footer .bottom-footer .container .bottom-footer-right ul {
   display: flex;
   gap: 20px;
-
 }
-footer .bottom-footer .container ul a{
+footer .bottom-footer .container ul a {
   color: var(--grey-50);
   text-transform: uppercase;
-  transition: all ease .5s;
+  transition: all ease 0.5s;
   font-weight: 300;
-
 }
 footer .bottom-footer .container ul a:hover {
   color: var(--primary-red-400);
-
 }
 
-footer .bottom-footer .container .bottom-footer-social{
+footer .bottom-footer .container .bottom-footer-social {
   display: flex;
   gap: 20px;
-  
 }
-footer .bottom-footer .container .bottom-footer-social i{
-  transition: all ease .5s;
+footer .bottom-footer .container .bottom-footer-social i {
+  transition: all ease 0.5s;
   cursor: pointer;
   color: var(--grey-50);
   font-size: 30px;
