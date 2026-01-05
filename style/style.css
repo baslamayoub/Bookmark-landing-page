@@ -214,6 +214,11 @@ header nav ul li:last-child a:hover {
   top: 0;
   display: none;
 }
+#tab1{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
 .active {
   display: flex;
   justify-content: space-between;
@@ -469,10 +474,63 @@ footer .top-footer button:hover {
 
 footer .bottom-footer{
   width: 100%;
-  
+  padding: 30px;
   background-color: var(--text-color);
 }
 footer .bottom-footer .container{
   display: flex;
   justify-content: space-between;
+}
+
+
+
+footer .bottom-footer .container .logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 50px;
+}
+footer .bottom-footer .container .logo img {
+  width: 30px;
+}
+footer .bottom-footer .container .logo p{
+  color: var(--grey-50);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+footer .bottom-footer .container .bottom-footer-right{
+  display: flex;
+  align-items: center;
+}
+footer .bottom-footer .container .bottom-footer-right ul {
+  display: flex;
+  gap: 20px;
+
+}
+footer .bottom-footer .container ul a{
+  color: var(--grey-50);
+  text-transform: uppercase;
+  transition: all ease .5s;
+  font-weight: 300;
+
+}
+footer .bottom-footer .container ul a:hover {
+  color: var(--primary-red-400);
+
+}
+
+footer .bottom-footer .container .bottom-footer-social{
+  display: flex;
+  gap: 20px;
+  
+}
+footer .bottom-footer .container .bottom-footer-social i{
+  transition: all ease .5s;
+  cursor: pointer;
+  color: var(--grey-50);
+  font-size: 30px;
+}
+footer .bottom-footer .container .bottom-footer-social i:hover {
+  color: var(--primary-red-400);
 }
