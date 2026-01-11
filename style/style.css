@@ -13,7 +13,7 @@
   --paragraph-color: hsl(229, 8%, 60%);
 }
 .container {
-  max-width: 1200;
+  max-width: 1200px;
   width: 70%;
   margin: 0 auto;
   /* background-color: aqua; */
@@ -59,6 +59,9 @@ header nav ul li:last-child a {
 header nav ul li:last-child a:hover {
   background-color: var(--grey-50);
   color: var(--primary-red-400);
+}
+header .burger img {
+  display: none;
 }
 
 /* header end */
@@ -527,3 +530,4 @@ footer .bottom-footer .container .bottom-footer-social i {
 footer .bottom-footer .container .bottom-footer-social i:hover {
   color: var(--primary-red-400);
 }
+

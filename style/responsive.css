@@ -1,0 +1,40 @@
+/* media qeuries */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  header {
+    margin-bottom: 50px;
+  }
+  header .burger img {
+    display: flex;
+    cursor: pointer;
+  }
+  header nav {
+    display: none;
+  }
+
+  /* hero section */
+  .hero .container {
+    flex-direction: column-reverse;
+  }
+  .hero .container .hero_image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+  .hero .container .hero_image img {
+    margin-right: 0;
+  }
+  .hero .hero_image::after{
+    bottom: 200px ;
+    height: 300px;
+  }
+  .hero .hero_content{
+    margin-bottom: -100px;
+  }
+
+  /* feature  */
+  
+}
