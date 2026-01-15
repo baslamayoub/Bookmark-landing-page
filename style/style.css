@@ -70,6 +70,7 @@ header .burger img {
   width: 100%;
   position: relative;
   margin-top: 100px;
+  overflow: hidden;
 
 }
 .hero .container {
@@ -103,6 +104,8 @@ header .burger img {
   color: var(--grey-50);
   border: 2px solid var(--primary-blue-600);
   margin-right: 20px;
+  display:inline-block;
+
 }
 
 .get_firefox {
@@ -124,6 +127,7 @@ header .burger img {
 .hero .hero_image {
   position: relative;
   width: 50%;
+  transform: translateX(100px);
 }
 .hero_content{
   width: 50%;

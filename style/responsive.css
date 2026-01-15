@@ -25,9 +25,12 @@
     width: 100%;
     display: flex;
     justify-content: center;
+      transform: translateX(0px);
+
   }
   .hero .hero_image::after{
     margin-bottom: -50px;
+    transform: translateX(-100px);
   }
   .hero .container .hero_image img {
     margin-right: 0;
@@ -58,6 +61,8 @@
     padding: 15px 20px;
     }
   /* feature  */
+
+
 }
 
 
