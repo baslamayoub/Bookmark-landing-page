@@ -403,11 +403,13 @@ header .burger img {
 .questions .summaries .faq-question {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 0;
   cursor: pointer;
   transition: all ease 0.5s;
 }
-
+.questions .summaries .faq-question i {
+  color: var(--primary-blue-600);
+}
 .questions .summaries .faq-question:hover {
   color: var(--primary-red-400);
 }
@@ -416,7 +418,7 @@ header .burger img {
   line-height: 1.6;
   font-weight: 400;
   color: var(--paragraph-color);
-  padding: 0 20px 20px 20px;
+  padding: 0 20px 20px 0px;
 }
 
 .questions .btn {
