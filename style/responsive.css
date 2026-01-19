@@ -5,13 +5,18 @@
   }
   header {
     margin-bottom: 50px;
+    position: relative;
   }
   header .burger img {
     display: flex;
     cursor: pointer;
   }
   header nav {
-    display: none;
+    display: block;
+    position: absolute;
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
   }
 
   /* hero section */
@@ -146,6 +151,9 @@ footer .bottom-footer .container .logo{
 .dowload .dowload_options .card {
   margin-top: 0 !important;
 }
+
+
+
 }
 
 footer {
