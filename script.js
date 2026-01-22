@@ -1,3 +1,5 @@
-let header = document.getElementsByClassName("header")
+const burger = document.getElementsByClassName(".header");
 
-header.style.backgroundcolor = "red"
+let event = () => {
+    b
+};
