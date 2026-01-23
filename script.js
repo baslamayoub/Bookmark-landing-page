@@ -1,5 +1,6 @@
-const burger = document.getElementsByClassName(".header");
+const burger = document.querySelector(".burger");
 
-let event = () => {
-    b
-};
+burger.addEventListener("click", () => {
+  console.log("ssss");
+});
+console.log("gggg");

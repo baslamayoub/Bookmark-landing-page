@@ -60,7 +60,7 @@ header nav ul li:last-child a:hover {
   background-color: var(--grey-50);
   color: var(--primary-red-400);
 }
-header .burger img {
+header .burger {
   display: none;
 }
 
