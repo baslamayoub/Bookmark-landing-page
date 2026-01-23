@@ -8,6 +8,7 @@
 :root {
   --grey-50: hsl(0, 0%, 97%);
   --text-color: hsl(229, 31%, 21%);
+  --header-color: hsla(229, 31%, 21%, 0.937);
   --primary-blue-600: hsl(231, 69%, 60%);
   --primary-red-400: hsl(0, 94%, 66%);
   --paragraph-color: hsl(229, 8%, 60%);
