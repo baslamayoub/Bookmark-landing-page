@@ -64,7 +64,9 @@ header nav ul li:last-child a:hover {
 header .burger {
   display: none;
 }
-
+ header .bottom-footer-social {
+  display: none;
+ }
 /* header end */
 /* body  start */
 .hero {
@@ -188,7 +190,7 @@ header .burger {
   height: 100%;
 }
 
-.features .features_tabs li .button {
+.features .features_tabs li .btntab {
   background: none;
   display: block;
   border: none;
@@ -201,7 +203,7 @@ header .burger {
   color: rgba(37, 43, 70, 0.7);
   transition: all 0.5s ease;
 }
-.features .features_tabs li .button:hover {
+.features .features_tabs li .btntab:hover {
   color: var(--text-color);
 }
 .features .features_tabs li .button-active::after {
@@ -221,11 +223,11 @@ header .burger {
 .feature {
   display: none;
 }
-#tab1 {
+/* #tab1 {
   display: flex;
   align-items: center;
   gap: 80px;
-}
+} */
 .active {
   display: flex;
   justify-content: space-between;
@@ -277,10 +279,10 @@ header .burger {
   z-index: -1;
 }
 
-.feature:target {
+/* .feature:target {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 /* end feeeeaaaatures */
 /* start download options */
