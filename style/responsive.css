@@ -7,7 +7,7 @@
     margin-bottom: 50px;
     position: relative;
   }
-  header nav.active ~ .logo {
+  header .logo.active {
     position: fixed;
     left: 50px;
     top: 50px;
@@ -16,14 +16,14 @@
     filter: invert(1);
   }
   header .burger {
-   display: flex;
+    display: flex;
     cursor: pointer;
     position: absolute;
     right: 50px;
     top: 50px;
     z-index: 2;
   }
-  header nav.active ~ .burger {
+  header .burger.active {
     display: flex;
     cursor: pointer;
     position: fixed;
@@ -82,6 +82,7 @@
     transform: translateY(20px);
   }
   header .bottom-footer-social {
+    display: flex;
     text-align: center;
     transform: translateY(-100px);
   }
@@ -149,7 +150,7 @@
     border-bottom: 2px solid var(--grey-50);
   }
   .features .feature__image::after {
-    /* left: -150%; */
+    left: -200%;
   }
   .feature .feature__image {
     width: 100%;
@@ -159,7 +160,7 @@
   .feature .feature__image img {
     width: 80%;
   }
-  #tab1 {
+  #tab {
     flex-direction: column;
   }
   .feature .feature__content {
@@ -183,9 +184,16 @@
   }
   .features .features_tabs li .button-active::after {
     bottom: -20px;
+    width: 20px;
+    
+    transform: translateX(50%);
+  }
+.features_tabs a { 
+    display: flex;
+    background-color: firebrick !important;
+  }
+  .feature .features_tabs .button-active.active::after {
     width: 200px;
-
-    transform: translateX(75%);
   }
   .dowload .title {
     margin-bottom: 50px;
