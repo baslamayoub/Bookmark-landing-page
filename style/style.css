@@ -193,7 +193,7 @@ header .bottom-footer-social {
 .features .features_tabs li a {
   background: none;
   display: block;
-  border: none;
+  
   cursor: pointer;
   text-align: center;
   font-size: 18px;
@@ -201,7 +201,7 @@ header .bottom-footer-social {
   width: 100%;
   position: relative;
   color: rgba(37, 43, 70, 0.7);
-  transition: all 0.5s ease;
+  /* transition: all 0.5s ease; */
 }
 
 .features .features_tabs li .btntab:hover {
@@ -218,8 +218,7 @@ header .bottom-footer-social {
 } */
 .features .features_tabs li a.active {
   display: block;
-  background-color: darkblue;
-  border-bottom: rebeccapurple 5px solid;
+  border-bottom: var(--primary-red-400) 5px solid;
 }
 .features .features_tabs li .button-active {
   color: var(--text-color);

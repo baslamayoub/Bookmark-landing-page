@@ -1,10 +1,11 @@
 const burger = document.querySelector(".burger");
 const logo = document.querySelector(".logo");
 const btnTabs = document.querySelectorAll(".btntab");
-const tabs = document.querySelectorAll("#tab");
+const tabs = document.querySelectorAll(".feature");
 
 const social = document.querySelector(".bottom-footer-social");
 const nav = document.querySelector("nav");
+
 
 nav.appendChild(social);
 burger.addEventListener("click", () => {
@@ -14,8 +15,8 @@ burger.addEventListener("click", () => {
 });
 
 btnTabs.forEach((el) => {
-  el.classList.remove("active");
   el.addEventListener("click", () => {
+    el.classList.remove("active");
     console.log(Number(el.dataset.num));
     tabs.forEach((tab) => {
       tab.classList.remove("active");
