@@ -64,9 +64,7 @@ header nav ul li:last-child a:hover {
 header .burger {
   display: none;
 }
-header .bottom-footer-social {
-  /* display: none; */
-}
+
 /* header end */
 /* body  start */
 .hero {
