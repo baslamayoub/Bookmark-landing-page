@@ -30,7 +30,7 @@
         <div class="burger">
           <img src="./images/icon-hamburger.svg" alt="hummberger">
         </div>
-        <nav>
+        <nav aria-label="main navigation">
           <ul>
             <li><a href="#">Features</a></li>
             <li><a href="#">Pricing</a></li>
@@ -78,13 +78,9 @@
             </p>
           </div>
           <ul class="features_tabs">
-            <li>
-              <a data-num="0" href="#"  onclick="event.preventDefault()" class="btntab active"
-                >Simple Bookmarking</a
-              >
-            </li>
-            <li><a data-num="1"  href="#"  onclick="event.preventDefault()"  class="btntab">Speedy Searching</a></li>
-            <li><a data-num="2"  href="#"  onclick="event.preventDefault()"  class="btntab">Easy Sharing</a></li>
+            <li><button  data-num="0" class="btntab active">Simple Bookmarking</button></li>
+            <li><button  data-num="1" class="btntab">Simple Bookmarking</button></li>
+            <li><button  data-num="2" class="btntab">Simple Bookmarking</button></li>
           </ul>
           <div class="features_articles">
             <!--article 1  -->
@@ -93,7 +89,7 @@
                 <img src="./images/illustration-features-tab-1.svg" alt="" />
               </div>
               <div class="feature__content">
-                <h3>Bookmark in one click</h3>
+                <h2>Bookmark in one click</h2>
                 <p>
                   Organize your bookmarks however you like. Our simple
                   drag-and-drop interface gives you complete control over how
@@ -110,7 +106,7 @@
                 <img src="./images/illustration-features-tab-2.svg" alt="" />
               </div>
               <div class="feature__content">
-                <h3>Intelligent search</h3>
+                <h2>Intelligent search</h2>
                 <p>
                   Our powerful search feature will help you find saved sites in
                   no time at all. No need to trawl through all of your
@@ -127,7 +123,7 @@
                 <img src="./images/illustration-features-tab-3.svg" alt="" />
               </div>
               <div class="feature__content">
-                <h3>Share your bookmarks</h3>
+                <h2>Share your bookmarks</h2>
                 <p>
                   Easily share your bookmarks and collections with others.
                   Create a shareable link that you can send at the click of a
@@ -153,7 +149,7 @@
             <div class="dowload_options">
               <article class="card">
                 <img src="./images/logo-chrome.svg" alt="" />
-                <h3>Add to Chrome</h3>
+                <h2>Add to Chrome</h2>
                 <p>Minimum version 62</p>
                 <div class="btn-parent">
                   <a class="btn" href="">Add & Install Extension</a>
@@ -162,7 +158,7 @@
               <!-- aritcle 1 -->
               <article class="card">
                 <img src="./images/logo-firefox.svg" alt="" />
-                <h3>Add to Firefox</h3>
+                <h2>Add to Firefox</h2>
                 <p>Minimum version 55</p>
                 <div class="btn-parent">
                   <a class="btn" href="">Add & Install Extension</a>
@@ -171,7 +167,7 @@
               <!-- aritcle 2 -->
               <article class="card">
                 <img src="./images/logo-opera.svg" alt="" />
-                <h3>Add to Opera</h3>
+                <h2>Add to Opera</h2>
                 <p>Minimum version 46</p>
                 <div class="btn-parent">
                   <a class="btn" href="">Add & Install Extension</a>
@@ -277,7 +273,7 @@
             <img src="./images/bookmark.png" alt="#" />
             <p>Bookmark</p>
           </div>
-          <nav>
+          <nav aria-label="footer navigation">
             <ul>
               <li><a href="#">Features</a></li>
               <li><a href="#">Pricing</a></li>
